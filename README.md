@@ -4,7 +4,7 @@
 
 Built for the site <https://www.sj.se/> when choosing a ticket, for example [Stockholm to Karlstad](https://www.sj.se/kop-resa/valj-resa/Stockholm%20Central/Karlstad%20C/2023-11-24) on 24 nov 2023.
 
-## Issue: SJ points worth varies
+### Issue: SJ points worth varies
 
 The ticket prices can be shown in kr (SEK) and in SJ points. The SJ points are not 1:1, but rather on a sliding scale roughly between 8 and 20 points per kr. This extension helps to compare.
 
@@ -27,3 +27,7 @@ The ticket prices can be shown in kr (SEK) and in SJ points. The SJ points are n
 ### Clear cache if needed
 
 The data is saved in `localStorage`. You can clear it by right-clicking the extension icon -> "Clear cache".
+
+## Dev
+
+Chrome extension docs: [developer.chrome.com/docs/extensions/mv3](https://developer.chrome.com/docs/extensions/mv3/)
