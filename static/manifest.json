@@ -1,0 +1,18 @@
+{
+  "version": "1",
+  "manifest_version": 3,
+  "name": "SJ points per kr",
+  "description": "Simplifies comparing travel options by showing index (points per kr) for each travel option",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Activate"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
