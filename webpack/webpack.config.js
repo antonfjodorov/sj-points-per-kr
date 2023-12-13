@@ -6,7 +6,6 @@ module.exports = {
   entry: {
     background: path.resolve(__dirname, "../src/background.ts"),
     clearStorage: path.resolve(__dirname, "../src/scripts/clearStorage.ts"),
-    content: path.resolve(__dirname, "../src/scripts/content.ts"),
     onclick: path.resolve(__dirname, "../src/scripts/onclick.ts")
   },
   output: {
