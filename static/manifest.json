@@ -9,6 +9,9 @@
     "scripting",
     "storage"
   ],
+  "icons": {
+    "48": "favicon48.png"
+  },
   "action": {
     "default_title": "Activate"
   },
