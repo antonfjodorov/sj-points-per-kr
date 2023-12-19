@@ -39,9 +39,10 @@ const parseTravelOptions = (): TravelOption => {
 
     let category: 'price' | 'points' = 'price';
 
+    price = price.replace(/\s*/g,'')
     if (price.includes('&nbsp;') || price.includes('p')) {
       category = 'points'
-      price = price.replace(/(\&nbsp;|p|\s)/g, '') || '';
+      price = price.replace(/(\&nbsp;|p)/g, '');
     }
 
     dataOnPage[id] = {
